@@ -8,10 +8,11 @@ Action:
           text: Declarative Command Pipelines
           content:
             Interpolator:
-              Markdown:
-                style: true
-                source:
-                  exec.content.Resource: README.md
+              source:
+                Markdown:
+                  style: true
+                  source:
+                    exec.content.Resource: README.md
     navigation:
       - Action:
           text: Source
